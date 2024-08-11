@@ -1,0 +1,3 @@
+export enum GENERAL_TYPES {
+  POPULATE_FIELDS = '@general/POPULATE_FIELDS',
+}

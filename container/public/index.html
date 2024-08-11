@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#007E78" />
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="google" value="notranslate" />
+    <link rel="icon" type="image/icon" href="./favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Extranet do Franqueado GB</title>
+  </head>
+  <body id="body">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+    <script src="oidc-client.min.js"></script>
+    <script src="openId.js"></script>
+    <script>
+      const routes = [
+        "/",
+        "/sair"
+      ];
+
+      // if (!routes.includes(window.location.pathname) && !sessionStorage.getItem('userToken')) {
+      //   sessionStorage.setItem('redirect_url_extranet', window.location.pathname);
+      //   signRedirect();
+      // }
+
+      // if (window.location.pathname === '/') {
+      //   signRedirect();
+      // }
+    </script>
+  </body>
+</html>

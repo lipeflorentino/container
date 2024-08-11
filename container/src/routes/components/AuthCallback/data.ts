@@ -1,0 +1,4 @@
+export enum ERROR_CODES {
+  DEFAULT = 'DEFAULT',
+  MAX_LOGIN = 'AADB2C90157',
+}
